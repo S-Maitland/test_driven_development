@@ -14,4 +14,10 @@ class FizzBuzzTest < MiniTest::Test
     actual = fizz_buzz(5)
     assert_equal(expected, actual)
   end
+
+  def test_fizz_buzz_3_and_5_returns_fizzbuzz
+    expected = "FizzBuzz"
+    actual = fizz_buzz(15)
+    assert_equal(expected, actual)
+  end
 end
